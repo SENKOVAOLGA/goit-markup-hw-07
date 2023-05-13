@@ -85,20 +85,50 @@ body{
 }
 
 /* ==========Шапка сайту HEADER========== */
+.page-header{
+   border-bottom: 1px solid var(--cornflower);
+   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+}
+
 .container-header{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.page-header{
-   border-bottom: 1px solid var(--cornflower);
-   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
-}
+
 .page-navigation{
     display: flex;
     align-items: center; 
    
 }
+.logo{
+    margin-right: 76px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+/* 
+
+
+*/
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-list {
+    display: none;
+  }
+}
+
+
 .list-mobile{
     list-style: none;
     display: flex;
@@ -112,29 +142,11 @@ body{
     display: none;
   }
 }
-.logo{
-    margin-right: 76px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
-}
+
 .logo-naim{
     color:var(--navy-blue);
 }
- .menu-mobile{
-   display: flex;
-   align-items: center;
-   outline: 2px solid red;
-} 
-@media only screen and (max-width: 767px) {
-  .menu-mobile {
-    display: none;
-  }
-}
+ 
 
 .menu-link{
     position: relative;
@@ -185,6 +197,9 @@ transition: background-color var(--anim-fast);
 .contact-link:hover,
 .contact-link:focus{
     color:var(--ocean);
+}
+.menu-toggle-icon {
+  stroke: var(--navy-blue);
 }
 
 /* ========== 1 секція HERO========== */
