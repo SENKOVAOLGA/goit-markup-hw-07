@@ -1298,8 +1298,8 @@ input[type='checkbox']:checked
   width: 24px;
   height: 24px;
   box-sizing: border-box;
-  fill: var(--color-navy-blue);
-  background-color: var(--color-cornflower);
+  fill: var(--navy-blue);
+  background-color: var(--cornflower);
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
 
@@ -1315,7 +1315,7 @@ input[type='checkbox']:checked
 }
 
 .menu-toggle-icon {
-  stroke: var(--color-navy-blue);
+  stroke: var(--navy-blue);
 }
 
 .menu-container {
@@ -1330,7 +1330,7 @@ input[type='checkbox']:checked
   padding-right: 35px;
   padding-bottom: 40px;
   padding-left: 40px;
-  background-color: var(--color-white);
+  background-color: var(--white);
   z-index: 999;
 
   transform: translateX(100%);
@@ -1345,7 +1345,7 @@ input[type='checkbox']:checked
   position: absolute;
   top: 16px;
   right: 16px;
-  color: #fff;
+  color:var(--white);
 }
 
 .mobile-menu {
@@ -1358,7 +1358,7 @@ input[type='checkbox']:checked
 .mobile-menu-items {
   display: block;
   padding: 10px;
-  color: var(--color-navy-blue-modal);
+  color: var(--navy-blue-modal);
   text-decoration: none;
 
   font-weight: 700;
@@ -1377,7 +1377,7 @@ input[type='checkbox']:checked
 }
 
 .mobile-menu-items.current {
-  color: var(--color-ocean);
+  color: var(--ocean);
 }
 
 .mobile-burger-tel {
@@ -1387,7 +1387,7 @@ input[type='checkbox']:checked
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--color-iris);
+  color: var(--iris);
   padding-bottom: 40px;
 }
 
@@ -1396,7 +1396,7 @@ input[type='checkbox']:checked
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
+  color: var(--slate);
 }
 
 .mobile-contacts {
