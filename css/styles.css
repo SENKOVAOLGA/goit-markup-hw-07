@@ -39,7 +39,7 @@ body{
     }
 .list{
     list-style: none;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     gap: 40px;
 }
@@ -197,10 +197,18 @@ transition: background-color var(--anim-fast);
 .contact-link:focus{
     color:var(--ocean);
 }
-.menu-toggle-icon {
-  stroke: var(--navy-blue);
+
+@media screen and (max-width: 767px) {
+  .menu-toggle-icon  {
+    stroke: var(--navy-blue);
+  }
 }
 
+@media screen and (min-width: 768px) {
+  .menu-toggle-icon {
+    display: none;
+  }
+}
 /* ========== 1 секція HERO========== */
 .container-hero{
  
