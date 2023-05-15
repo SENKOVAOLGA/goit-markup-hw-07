@@ -39,9 +39,9 @@ body{
     }
 .list{
     list-style: none;
-    /* display: flex; */
+    /* display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 40px; */
 }
 .link{
     text-decoration: none;
@@ -100,6 +100,10 @@ body{
   justify-content: space-between;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
 .page-navigation{
     display: flex;
     align-items: center; 
