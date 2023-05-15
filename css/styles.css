@@ -478,16 +478,29 @@ padding: 96px 0 ;
     margin-bottom: 8px;
     color: #2e2f42;
 }
-.text{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--slate);
+.superior-txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
-@media screen and (min-width: 1158px) {
-  .text {
+
+@media screen and (max-width: 1157px) {
+  .superior-txt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .superior-txt {
     font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
   }
 }
 .text-subtitle{
