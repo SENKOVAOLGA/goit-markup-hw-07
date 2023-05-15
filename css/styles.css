@@ -382,6 +382,8 @@ transition: background-color var(--anim-fast);
 /* ==========2 секція HANG========== */
 .container-description{
 display: flex;
+padding-left: 16px;
+ padding-right: 16px;
 }
 .description{
 padding: 96px 0 ;
@@ -491,6 +493,7 @@ padding: 96px 0 ;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+  
 }
 
 @media screen and (max-width: 1157px) {
@@ -506,7 +509,7 @@ padding: 96px 0 ;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.02em;
   }
 }
