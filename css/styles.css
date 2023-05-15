@@ -47,38 +47,33 @@ body{
     text-decoration: none;
 }
 
-     .container {
-  /* Phone styles & > */
-  /* min-width: 320px; */
+ * Phone styles */
+
+.container {
+  min-width: 320px;
   max-width: 428px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
-  /* outline: 2px solid red; */
+
+  /* outline: 2px solid tomato; */
 }
-/* Tablet styles & > */
+
+/* Tablet styles */
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
 
-/* @media only screen and (min-width: 768px) and (max-width: 1157px) {
-  .container {
-    max-width: 768px;
-  }
-} */
-
-
-/* Desktop styles & > */
+/* Desctop styles */
 @media only screen and (min-width: 1158px) {
   .container {
-    max-width: 1158x;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 1158px;
   }
 }
+
 .section {
 
     padding-bottom: 96px;
@@ -415,6 +410,18 @@ padding: 96px 0 ;
   }
 }
 
+@media screen and (min-width: 1158px) {
+  .des-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+}
 .description-icon{
  margin: 24px ;
 }
@@ -978,6 +985,13 @@ display: flex;
   overflow: hidden;
 }
 /* **************PORTFOLIO ***********/
+.container-portfolio{
+       width: 1158px;
+     padding: 0 15px; 
+     margin: 0 auto;
+     /* outline: 2px solid red; */
+      }
+
 .portfolio{
     padding: 96px 0 120px;
 }
