@@ -43,7 +43,14 @@ body{
     align-items: center;
     gap: 40px;
 }
+.list-burger{
+    list-style: none;
+    /* display: flex; */
+    align-items: center;
+    gap: 40px;
+}
 .link{
+  
     text-decoration: none;
 }
 
