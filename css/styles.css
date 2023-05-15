@@ -55,7 +55,7 @@ body{
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 /* Tablet styles & > */
 @media only screen and (min-width: 768px) {
@@ -609,7 +609,7 @@ margin-bottom: 72px;
 .customers-section{
     padding-top: 96px;
     padding-bottom: 96px;
-    outline: 2px solid lime;
+    /* outline: 2px solid lime; */
    /* position: absolute; */
 /* width: 552px;
 height: 360px;
